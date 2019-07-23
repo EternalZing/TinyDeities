@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad1073fdc40654744be53d5cbe6148c1, type: 3}
+  m_Name: Busrt
+  m_EditorClassIdentifier: 
+  danmaku: {fileID: 883598050376208747, guid: c34db27a59a4be04eaffc9eb7a7f34a3, type: 3}
+  baseDamage: 0
+  basicSpeed: 3
+  CD: 0
+  timelineList:
+  - showingTime: 0
+    danmakuReference: {fileID: 883598050376208747, guid: c34db27a59a4be04eaffc9eb7a7f34a3,
+      type: 3}
+    unitType: 0
+    arguments:
+      reorderableList:
+        canAdd: 1
+        canRemove: 1
+        draggable: 1
+        expandable: 1
+        multipleSelection: 1
+        isExpanded: 1
+        label:
+          m_Text: Keys
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        headerHeight: 18
+        footerHeight: 13
+        slideEasing: 0.15
+        verticalSpacing: 2
+        showDefaultBackground: 1
+        elementDisplayType: 0
+        elementNameProperty: 
+        elementNameOverride: 
+        elementIcon: {fileID: 0}
+      reqReferences: {fileID: 0}
+      isExpanded: 1
+      _keyValues:
+      - SpeedModifier
+      - FloweringNumbers
+      - DamageModifier
+      _keys:
+      - SpeedModifier
+      - FloweringNumbers
+      - DamageModifier
+      _values:
+      - 1
+      - 12
+      - 1.5

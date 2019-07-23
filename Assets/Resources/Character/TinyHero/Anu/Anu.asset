@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2401d5620ee817342b9128dc1b6cc66e, type: 3}
+  m_Name: Anu
+  m_EditorClassIdentifier: 
+  name: TinyHero
+  movingSpeed: 5.88
+  level: 1
+  life: 10
+  lifeMax: 10
+  cd: 0.15
+  danmakuSpeed: 9.12
+  exp: 0
+  baseDamage: 5
+  onLifeChange:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  defaultDanmaku: {fileID: 883598050376208747, guid: c34db27a59a4be04eaffc9eb7a7f34a3,
+    type: 3}
